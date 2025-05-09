@@ -22,6 +22,7 @@ class Specs:
 
 class Product:
     def __init__(self, product_id: str, product_category: str):
+        # Since product names are not clearly defined, I chose to extract the categories each product fits into, rather than relying on the names
         self.product_id = product_id
         self.category = product_category
         self.description = None
